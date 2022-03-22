@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+<style>
+
+</style>
+<body>
+<div id = "top_connection" style="height:40px;width:500px">
+    <div id = "blank" style="height:10px"></div>
+    <div id = 1 style="width:10px;float:left"><p></p></div>
+    <div id = 2 style="width:70px;text-align:center;float:left"><a href = "//www.baidu.com" target="_blank">百度首页</a></div>
+    <div id = 3 style="width:70px;text-align:center;float:left"><a href = "//www.hao123.com" target="_blank">hao123</a></div>
+    <div id = "blank_" style="height:10px"><p></p></div>
+</div>
+<div id = "search" style="width:100%;text-align:center">
+    <div id = "blank1" style="height:300px"></div>
+    <div id = "s">
+        <form action="https://www.baidu.com/s">
+            <input type="text" name="word">
+            <input type="submit" value="搜索">
+        </form>
+        <div id="jump" style="width:50%;float:right;text-align:left">
+            <button onclick="jump()">img</button>
+            <button onclick="jump1()">ad</button>
+        </div>
+    </div>
+
+
+</div>
+<script>
+    function jump()
+    {
+        window.open("image.html")
+        alert(window.location);
+    }
+    function jump1()
+    {
+        window.open("Advanced.html")
+        alert(window.location);
+    }
+</script>
+</body>
+</html>
